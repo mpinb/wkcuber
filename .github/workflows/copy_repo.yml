@@ -25,6 +25,7 @@ jobs:
             cp -r external/webknossos-libs/wkcuber/* ./
             rm -rf external
             sed -i "/cluster_tools = .*/c\cluster_tools = {git = 'https://github.com/research-center-caesar/cluster-tools.git', rev = 'main'}" pyproject.toml
+            sed -i "/webknossos = .*/c\webknossos = {git = 'https://github.com/research-center-caesar/webknossos.git', rev = 'main'}" pyproject.toml
             git status
           fi
       - name: Install and configure Poetry
@@ -32,6 +33,7 @@ jobs:
       - name: Install dependencies
         run: | 
           sed -i "/cluster_tools = .*/c\cluster_tools = {git = 'https://github.com/research-center-caesar/cluster-tools.git', rev = 'main'}" pyproject.toml
+          sed -i "/webknossos = .*/c\webknossos = {git = 'https://github.com/research-center-caesar/webknossos.git', rev = 'main'}" pyproject.toml
           rm poetry.lock
           poetry install --no-interaction --no-root
       - name: Commit & push changes
