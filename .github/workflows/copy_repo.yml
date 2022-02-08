@@ -1,0 +1,44 @@
+# Clone public repo if new commits exist
+
+name: Check for upstream updates
+
+on:
+  schedule:
+     - cron:  '0 0 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Get commit message from webknossos-libs repo
+        # Save remote commit hash in file '.hash' (from: https://serverfault.com/a/153893)
+        run: echo `git ls-remote https://github.com/scalableminds/webknossos-libs.git HEAD | awk '{ print $1}'` > .hash
+      - name: Clone upstream repository if new commit exists
+        run: |
+          if ! git diff --exit-code .hash &> /dev/null; then
+            hash=$(cat .hash)
+            echo New commit ${hash} available!
+            mkdir external
+            git clone https://github.com/scalableminds/webknossos-libs.git external/webknossos-libs
+            cp -r external/webknossos-libs/wkcuber/* ./
+            rm -rf external
+            sed -i "/cluster_tools = .*/c\cluster_tools = {git = 'https://github.com/research-center-caesar/cluster-tools.git', rev = 'main'}" pyproject.toml
+            git status
+          fi
+      - name: Install and configure Poetry
+        uses: snok/install-poetry@v1
+      - name: Install dependencies
+        run: | 
+          sed -i "/cluster_tools = .*/c\cluster_tools = {git = 'https://github.com/research-center-caesar/cluster-tools.git', rev = 'main'}" pyproject.toml
+          rm poetry.lock
+          poetry install --no-interaction --no-root
+      - name: Commit & push changes
+        run: |
+          git status
+          git config --global user.name 'Github Action'
+          git config --global user.email 'erjel@users.noreply.github.com'
+          git add -A .
+          git diff-index --quiet HEAD || git commit -m "New commit `$hash`"
+          git push
