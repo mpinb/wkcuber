@@ -175,7 +175,7 @@ cloudpickle = "^2.0.0"
 type = "git"
 url = 'https://github.com/research-center-caesar/cluster-tools.git'
 reference = 'main'
-resolved_reference = "110bf0b2076523a7cb63946f31d0ad0ad7a0e4c1"
+resolved_reference = "6407d3778030b24acc54d7e8f0949e4632d20677"
 
 [[package]]
 name = "colorama"
@@ -969,7 +969,7 @@ wkw = "1.1.11"
 type = "git"
 url = 'https://github.com/research-center-caesar/webknossos.git'
 reference = 'main'
-resolved_reference = "3dfd0cd8a7cecd6ee70a997fce567acf76c6c712"
+resolved_reference = "481abce1bc18229fd8bb47f4a8b5b12f8a708f32"
 
 [[package]]
 name = "wkw"
