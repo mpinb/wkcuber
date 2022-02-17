@@ -969,7 +969,7 @@ wkw = "1.1.11"
 type = "git"
 url = 'https://github.com/research-center-caesar/webknossos.git'
 reference = 'main'
-resolved_reference = "eb191372e5a43197b355697d573f246371f67a85"
+resolved_reference = "73e91d8d40569b5f3a2eb3944415fbbb3307feac"
 
 [[package]]
 name = "wkw"
