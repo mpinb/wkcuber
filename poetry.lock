@@ -1085,7 +1085,7 @@ wkw = "1.1.11"
 type = "git"
 url = 'https://github.com/research-center-caesar/webknossos.git'
 reference = 'main'
-resolved_reference = "7d13df81fcc0ccb22b8f4411a72da7ae1c5743a2"
+resolved_reference = "8b762f3d05c95e1856e353d25aefdf44088776aa"
 
 [[package]]
 name = "websocket-client"
