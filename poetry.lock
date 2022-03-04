@@ -1080,12 +1080,13 @@ scikit-image = "^0.18.3"
 scipy = "^1.4.0"
 typing-extensions = "^3.7"
 wkw = "1.1.11"
+zipp = "^3.5.0"
 
 [package.source]
 type = "git"
 url = 'https://github.com/research-center-caesar/webknossos.git'
 reference = 'main'
-resolved_reference = "e183380e8fd79ea8f81f097cdd2b7be02f8332fe"
+resolved_reference = "7b431c9d53790fdde0b84d7f9f8c15fcf315f4b8"
 
 [[package]]
 name = "websocket-client"
@@ -1141,7 +1142,7 @@ jupyter = ["notebook", "ipytree"]
 name = "zipp"
 version = "3.7.0"
 description = "Backport of pathlib-compatible object wrapper for zip files"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
 
