@@ -184,7 +184,7 @@ kubernetes = "^21.7.0"
 type = "git"
 url = 'https://github.com/research-center-caesar/cluster-tools.git'
 reference = 'main'
-resolved_reference = "50690b6b0bafe286c97a2a97baf5dac0f8bfbbcc"
+resolved_reference = "564e987993d0c07f720af3d9b4e4e2d01e2a07fd"
 
 [[package]]
 name = "colorama"
@@ -1057,7 +1057,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [[package]]
 name = "webknossos"
 version = "0.0.0"
-description = "Python package to work with webKnossos datasets and annotations"
+description = "Python API for working with webKnossos datasets, annotations, and for webKnossos server interaction."
 category = "main"
 optional = false
 python-versions = "^3.7,>=3.7.1"
@@ -1086,7 +1086,7 @@ zipp = "^3.5.0"
 type = "git"
 url = 'https://github.com/research-center-caesar/webknossos.git'
 reference = 'main'
-resolved_reference = "583f5fab528ebfcc15727dc2165846b9b7441e28"
+resolved_reference = "c58020c39376095831087ea299070775908cb978"
 
 [[package]]
 name = "websocket-client"
@@ -1123,7 +1123,7 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 
 [[package]]
 name = "zarr"
-version = "2.11.0"
+version = "2.11.1"
 description = "An implementation of chunked, compressed, N-dimensional arrays for Python."
 category = "main"
 optional = false
@@ -2151,8 +2151,8 @@ wrapt = [
     {file = "wrapt-1.13.3.tar.gz", hash = "sha256:1fea9cd438686e6682271d36f3481a9f3636195578bab9ca3382e2f5f01fc185"},
 ]
 zarr = [
-    {file = "zarr-2.11.0-py3-none-any.whl", hash = "sha256:9da4427ea333e1baddd341a4479ca741f3e53a6acbbd05f10591a37fd4b5b3b6"},
-    {file = "zarr-2.11.0.tar.gz", hash = "sha256:b0873be27af5690738fa158ea7a802eae454904c33995056185acc5a7425b451"},
+    {file = "zarr-2.11.1-py3-none-any.whl", hash = "sha256:126cf3fe6d0276f64a1590eb6e18edf5e7c903cc4a879829b3ebdc85238b7894"},
+    {file = "zarr-2.11.1.tar.gz", hash = "sha256:11b628f42dec36e0147879e8bd471524b59b238094b9b21e3c35be78399c115e"},
 ]
 zipp = [
     {file = "zipp-3.7.0-py3-none-any.whl", hash = "sha256:b47250dd24f92b7dd6a0a8fc5244da14608f3ca90a5efcd37a3b1642fac9a375"},
