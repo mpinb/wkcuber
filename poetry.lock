@@ -178,13 +178,13 @@ develop = false
 
 [package.dependencies]
 cloudpickle = "^2.0.0"
-kubernetes = "^21.7.0"
+kubernetes = "^23.3.0"
 
 [package.source]
 type = "git"
 url = 'https://github.com/research-center-caesar/cluster-tools.git'
 reference = 'main'
-resolved_reference = "564e987993d0c07f720af3d9b4e4e2d01e2a07fd"
+resolved_reference = "db5879557eb74fff26059b17c0a96960f88f452f"
 
 [[package]]
 name = "colorama"
@@ -443,7 +443,7 @@ python-versions = ">=3.7"
 
 [[package]]
 name = "kubernetes"
-version = "21.7.0"
+version = "23.3.0"
 description = "Kubernetes python client"
 category = "main"
 optional = false
@@ -1086,7 +1086,7 @@ zipp = "^3.5.0"
 type = "git"
 url = 'https://github.com/research-center-caesar/webknossos.git'
 reference = 'main'
-resolved_reference = "c58020c39376095831087ea299070775908cb978"
+resolved_reference = "5f6ac4277f007065c8d28fd169cf18e631cf9a6e"
 
 [[package]]
 name = "websocket-client"
@@ -1407,8 +1407,8 @@ kiwisolver = [
     {file = "kiwisolver-1.3.2.tar.gz", hash = "sha256:fc4453705b81d03568d5b808ad8f09c77c47534f6ac2e72e733f9ca4714aa75c"},
 ]
 kubernetes = [
-    {file = "kubernetes-21.7.0-py2.py3-none-any.whl", hash = "sha256:044c20253f8577491a87af8f9edea1f929ed6d62ce306376a6cb8aed24e572c5"},
-    {file = "kubernetes-21.7.0.tar.gz", hash = "sha256:c9849afc2eafdce60efa210049ee7a94e7ef6cf3a7afa14a69b3bf0447825977"},
+    {file = "kubernetes-23.3.0-py2.py3-none-any.whl", hash = "sha256:223ff8f0ece5bc20fb65545f09a2308c5e1e9c0be83ae68504c1b1c6baa38f5b"},
+    {file = "kubernetes-23.3.0.tar.gz", hash = "sha256:05c98e4bd92f7091fa0fa58f594490e712c9151144d5f458235663a8909e342a"},
 ]
 lazy-object-proxy = [
     {file = "lazy-object-proxy-1.7.1.tar.gz", hash = "sha256:d609c75b986def706743cdebe5e47553f4a5a1da9c5ff66d76013ef396b5a8a4"},
