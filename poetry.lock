@@ -184,7 +184,7 @@ kubernetes = "^23.3.0"
 type = "git"
 url = 'https://github.com/research-center-caesar/cluster-tools.git'
 reference = 'main'
-resolved_reference = "76b09130389af9396f16c7a31d7c90abee91d222"
+resolved_reference = "d5a8cd0ccd9084c2fa8914d633dac1a58c916b20"
 
 [[package]]
 name = "colorama"
@@ -280,7 +280,7 @@ typing-extensions = {version = ">=3.7.4.3", markers = "python_version < \"3.8\""
 
 [[package]]
 name = "google-auth"
-version = "2.6.0"
+version = "2.6.2"
 description = "Google Authentication Library"
 category = "main"
 optional = false
@@ -1074,6 +1074,7 @@ cluster_tools = {git = 'https://github.com/research-center-caesar/cluster-tools.
 httpx = ">=0.15.4,<0.19.0"
 loxun = "^2.0"
 networkx = "^2.6.2"
+numcodecs = "^0.9.1"
 numpy = "^1.15.0"
 psutil = "^5.6.7"
 python-dateutil = "^2.8.0"
@@ -1083,13 +1084,14 @@ scikit-image = "^0.18.3"
 scipy = "^1.4.0"
 typing-extensions = "^3.7"
 wkw = "1.1.11"
+zarr = "^2.11.0"
 zipp = "^3.5.0"
 
 [package.source]
 type = "git"
 url = 'https://github.com/research-center-caesar/webknossos.git'
 reference = 'main'
-resolved_reference = "cb4a5f2bc91d83e7468706e1f2990ed7a8cb9df5"
+resolved_reference = "9bcafed4b7d5330fdd1f25e768f52932dbe9eff5"
 
 [[package]]
 name = "websocket-client"
@@ -1299,8 +1301,8 @@ gitpython = [
     {file = "GitPython-3.1.27.tar.gz", hash = "sha256:1c885ce809e8ba2d88a29befeb385fcea06338d3640712b59ca623c220bb5704"},
 ]
 google-auth = [
-    {file = "google-auth-2.6.0.tar.gz", hash = "sha256:ad160fc1ea8f19e331a16a14a79f3d643d813a69534ba9611d2c80dc10439dad"},
-    {file = "google_auth-2.6.0-py2.py3-none-any.whl", hash = "sha256:218ca03d7744ca0c8b6697b6083334be7df49b7bf76a69d555962fd1a7657b5f"},
+    {file = "google-auth-2.6.2.tar.gz", hash = "sha256:60d449f8142c742db760f4c0be39121bc8d9be855555d784c252deaca1ced3f5"},
+    {file = "google_auth-2.6.2-py2.py3-none-any.whl", hash = "sha256:3ba4d63cb29c1e6d5ffcc1c0623c03cf02ede6240a072f213084749574e691ab"},
 ]
 h11 = [
     {file = "h11-0.12.0-py3-none-any.whl", hash = "sha256:36a3cb8c0a032f56e2da7084577878a035d3b61d104230d4bd49c0c6b555a9c6"},
