@@ -184,7 +184,7 @@ kubernetes = "^23.3.0"
 type = "git"
 url = 'https://github.com/research-center-caesar/cluster-tools.git'
 reference = 'main'
-resolved_reference = "d5a8cd0ccd9084c2fa8914d633dac1a58c916b20"
+resolved_reference = "927fb59e503f676838421a27619705f31539ba40"
 
 [[package]]
 name = "colorama"
@@ -236,7 +236,7 @@ python-versions = ">=3.6"
 
 [[package]]
 name = "fonttools"
-version = "4.30.0"
+version = "4.31.1"
 description = "Tools to manipulate font files"
 category = "main"
 optional = false
@@ -1091,7 +1091,7 @@ zipp = "^3.5.0"
 type = "git"
 url = 'https://github.com/research-center-caesar/webknossos.git'
 reference = 'main'
-resolved_reference = "9bcafed4b7d5330fdd1f25e768f52932dbe9eff5"
+resolved_reference = "a222e8345679683cf817aa13e1aefab671fffe33"
 
 [[package]]
 name = "websocket-client"
@@ -1158,7 +1158,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7,>=3.7.1"
-content-hash = "948b5663f561504b3433704c19d67cefd36a9f7c127970e82d604378f0ea3bcb"
+content-hash = "22e73a373f664bd2f88652dd7a0a3f6af98cfd90d5fbb3cd7473168f96055062"
 
 [metadata.files]
 anyio = [
@@ -1289,8 +1289,8 @@ fasteners = [
     {file = "fasteners-0.17.3.tar.gz", hash = "sha256:a9a42a208573d4074c77d041447336cf4e3c1389a256fd3e113ef59cf29b7980"},
 ]
 fonttools = [
-    {file = "fonttools-4.30.0-py3-none-any.whl", hash = "sha256:6985cc5380c06db07fdc73ade15e6adbd4ce6ff850d7561ca00f97090b4b263d"},
-    {file = "fonttools-4.30.0.zip", hash = "sha256:084dd1762f083a1bf49e41da1bfeafb475c9dce46265690a6bdd33290b9a63f4"},
+    {file = "fonttools-4.31.1-py3-none-any.whl", hash = "sha256:2b288eae806800668cb5cdf52a37b5ac701c5adda2dd5c88b685581ce3385285"},
+    {file = "fonttools-4.31.1.zip", hash = "sha256:f8b35ed9ba189710994cec2c86b8eb5f0c49336698575e439a0d5671d3ca1ace"},
 ]
 gitdb = [
     {file = "gitdb-4.0.9-py3-none-any.whl", hash = "sha256:8033ad4e853066ba6ca92050b9df2f89301b8fc8bf7e9324d412a63f8bf1a8fd"},
