@@ -184,7 +184,7 @@ kubernetes = "^23.3.0"
 type = "git"
 url = 'https://github.com/research-center-caesar/cluster-tools.git'
 reference = 'main'
-resolved_reference = "927fb59e503f676838421a27619705f31539ba40"
+resolved_reference = "38f411eb0afbf78de9ff409fa3a42e481d04edd3"
 
 [[package]]
 name = "colorama"
@@ -236,7 +236,7 @@ python-versions = ">=3.6"
 
 [[package]]
 name = "fonttools"
-version = "4.31.1"
+version = "4.31.2"
 description = "Tools to manipulate font files"
 category = "main"
 optional = false
@@ -1289,8 +1289,8 @@ fasteners = [
     {file = "fasteners-0.17.3.tar.gz", hash = "sha256:a9a42a208573d4074c77d041447336cf4e3c1389a256fd3e113ef59cf29b7980"},
 ]
 fonttools = [
-    {file = "fonttools-4.31.1-py3-none-any.whl", hash = "sha256:2b288eae806800668cb5cdf52a37b5ac701c5adda2dd5c88b685581ce3385285"},
-    {file = "fonttools-4.31.1.zip", hash = "sha256:f8b35ed9ba189710994cec2c86b8eb5f0c49336698575e439a0d5671d3ca1ace"},
+    {file = "fonttools-4.31.2-py3-none-any.whl", hash = "sha256:2df636a3f402ef14593c6811dac0609563b8c374bd7850e76919eb51ea205426"},
+    {file = "fonttools-4.31.2.zip", hash = "sha256:236b29aee6b113e8f7bee28779c1230a86ad2aac9a74a31b0aedf57e7dfb62a4"},
 ]
 gitdb = [
     {file = "gitdb-4.0.9-py3-none-any.whl", hash = "sha256:8033ad4e853066ba6ca92050b9df2f89301b8fc8bf7e9324d412a63f8bf1a8fd"},
