@@ -184,7 +184,7 @@ kubernetes = "^23.3.0"
 type = "git"
 url = 'https://github.com/research-center-caesar/cluster-tools.git'
 reference = 'main'
-resolved_reference = "38f411eb0afbf78de9ff409fa3a42e481d04edd3"
+resolved_reference = "ff9b6e380b760c5a4e0f5b692dd52b2da779e086"
 
 [[package]]
 name = "colorama"
@@ -1091,7 +1091,7 @@ zipp = "^3.5.0"
 type = "git"
 url = 'https://github.com/research-center-caesar/webknossos.git'
 reference = 'main'
-resolved_reference = "250198d0172be0cd413e5d0f5fecd4a5b739331b"
+resolved_reference = "7ba1e14b391b008122ff300d67d62447bce029d8"
 
 [[package]]
 name = "websocket-client"
