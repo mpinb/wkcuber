@@ -1146,7 +1146,7 @@ zipp = "^3.5.0"
 type = "git"
 url = 'https://github.com/research-center-caesar/webknossos.git'
 reference = 'main'
-resolved_reference = "b2da3aec2753be0e5e343fa6190bbee2ced79951"
+resolved_reference = "691047d9dc2a15106ee59bd008954a66b3ee5f3f"
 
 [[package]]
 name = "websocket-client"
@@ -1183,7 +1183,7 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 
 [[package]]
 name = "zarr"
-version = "2.11.1"
+version = "2.11.2"
 description = "An implementation of chunked, compressed, N-dimensional arrays for Python."
 category = "main"
 optional = false
@@ -2224,8 +2224,8 @@ wrapt = [
     {file = "wrapt-1.14.0.tar.gz", hash = "sha256:8323a43bd9c91f62bb7d4be74cc9ff10090e7ef820e27bfe8815c57e68261311"},
 ]
 zarr = [
-    {file = "zarr-2.11.1-py3-none-any.whl", hash = "sha256:126cf3fe6d0276f64a1590eb6e18edf5e7c903cc4a879829b3ebdc85238b7894"},
-    {file = "zarr-2.11.1.tar.gz", hash = "sha256:11b628f42dec36e0147879e8bd471524b59b238094b9b21e3c35be78399c115e"},
+    {file = "zarr-2.11.2-py3-none-any.whl", hash = "sha256:2abea30be233f279e0468cc91bddd6e9a18ef4a2fbf2d4fed33c8faaa43fdab9"},
+    {file = "zarr-2.11.2.tar.gz", hash = "sha256:794d76f6ab4940eaaa51b1b1a5c15422ba22e9063199d1ed946f98483e0ef329"},
 ]
 zipp = [
     {file = "zipp-3.8.0-py3-none-any.whl", hash = "sha256:c4f6e5bbf48e74f7a38e7cc5b0480ff42b0ae5178957d564d18932525d5cf099"},
