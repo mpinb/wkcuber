@@ -175,7 +175,7 @@ kubernetes = "^23.3.0"
 type = "git"
 url = 'https://github.com/research-center-caesar/cluster-tools.git'
 reference = 'main'
-resolved_reference = "17364db4f5c71a667a3f9b08921f9c4b5dc340d9"
+resolved_reference = "359dc8fee240ac60302cf149b25e54f684ba351d"
 
 [[package]]
 name = "colorama"
@@ -313,7 +313,7 @@ typing-extensions = {version = ">=3.7.4.3", markers = "python_version < \"3.8\""
 
 [[package]]
 name = "google-auth"
-version = "2.6.4"
+version = "2.6.5"
 description = "Google Authentication Library"
 category = "main"
 optional = false
@@ -1146,7 +1146,7 @@ zipp = "^3.5.0"
 type = "git"
 url = 'https://github.com/research-center-caesar/webknossos.git'
 reference = 'main'
-resolved_reference = "92e79e3cac4779407b09d9e3e62cbc899200188c"
+resolved_reference = "d9442e580f2e5e39a974e178e5be2f0c21a653c5"
 
 [[package]]
 name = "websocket-client"
@@ -1360,8 +1360,8 @@ gitpython = [
     {file = "GitPython-3.1.27.tar.gz", hash = "sha256:1c885ce809e8ba2d88a29befeb385fcea06338d3640712b59ca623c220bb5704"},
 ]
 google-auth = [
-    {file = "google-auth-2.6.4.tar.gz", hash = "sha256:1a8c2c70c070b72fe038e2eb20072e5b4f0fd8ca1875e8fafe7f71b689a8d572"},
-    {file = "google_auth-2.6.4-py2.py3-none-any.whl", hash = "sha256:4dacb91d8a15b7755fc08688576481bd9c37cfac9842289469cf000d557f8962"},
+    {file = "google-auth-2.6.5.tar.gz", hash = "sha256:04e224f241c0566477bb35a8a93be8c635210de743bde454d49393cfb605266d"},
+    {file = "google_auth-2.6.5-py2.py3-none-any.whl", hash = "sha256:9a88ee548f6fd49467e2e443dfbfe10344e5a270629a137a3a0b3437ec6b02a6"},
 ]
 h11 = [
     {file = "h11-0.12.0-py3-none-any.whl", hash = "sha256:36a3cb8c0a032f56e2da7084577878a035d3b61d104230d4bd49c0c6b555a9c6"},
