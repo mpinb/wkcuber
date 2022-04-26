@@ -272,7 +272,7 @@ kubernetes = "^23.3.0"
 type = "git"
 url = 'https://github.com/research-center-caesar/cluster-tools.git'
 reference = 'main'
-resolved_reference = "8148b4028f594eaa237f2600286b9fa6c8a6dfc9"
+resolved_reference = "ca94e5fac1c450debdbb91346cef8b22254cfb0d"
 
 [[package]]
 name = "colorama"
@@ -502,7 +502,7 @@ all = ["matplotlib (>=3.2)", "tifffile (>=2020.12.8)"]
 
 [[package]]
 name = "imageio"
-version = "2.17.0"
+version = "2.18.0"
 description = "Library for reading and writing a wide range of image, video, scientific, and volumetric data formats."
 category = "main"
 optional = false
@@ -1288,7 +1288,7 @@ zipp = "^3.5.0"
 type = "git"
 url = 'https://github.com/research-center-caesar/webknossos.git'
 reference = 'main'
-resolved_reference = "70d04cb4a6377ac237f0d415c6f225041e321f30"
+resolved_reference = "b570169e5f44b8d87f532dde9ebfcd7233321234"
 
 [[package]]
 name = "websocket-client"
@@ -1718,8 +1718,8 @@ imagecodecs = [
     {file = "imagecodecs-2020.12.24.tar.gz", hash = "sha256:bcfb909c38fc0460f24ab75f58c643f2c50a10d0fa49ac07d5ea7b780765e7bd"},
 ]
 imageio = [
-    {file = "imageio-2.17.0-py3-none-any.whl", hash = "sha256:6b81600e20d90dcfba752c341f86188d09db75b7945ad15dec11ba1af0d40c26"},
-    {file = "imageio-2.17.0.tar.gz", hash = "sha256:b21f009e52eb22b02b839f3bf2ae5374aaf0886317313c1358c6014e5383b539"},
+    {file = "imageio-2.18.0-py3-none-any.whl", hash = "sha256:a922cb37011d69702edbb4f68b0475d8f7242337e7995a42b7c32ec9931ddd46"},
+    {file = "imageio-2.18.0.tar.gz", hash = "sha256:090898c48532631ab11c74ae743e64c24dabda45c16db46f7e3bec9e2d8f422f"},
 ]
 importlib-metadata = [
     {file = "importlib_metadata-4.11.3-py3-none-any.whl", hash = "sha256:1208431ca90a8cca1a6b8af391bb53c1a2db74e5d1cef6ddced95d4b2062edc6"},
