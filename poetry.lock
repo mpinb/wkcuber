@@ -1288,7 +1288,7 @@ zipp = "^3.5.0"
 type = "git"
 url = 'https://github.com/research-center-caesar/webknossos.git'
 reference = 'main'
-resolved_reference = "cb98c236f8c9b6d96bc3b4ff0141f4686bad4e4b"
+resolved_reference = "9b2f6ba0dcbc0280ca4f8bc33e59ae27d88c2dfa"
 
 [[package]]
 name = "websocket-client"
